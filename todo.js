@@ -39,6 +39,6 @@ addTask.addEventListener("click", function () {
 
   deleteButton.addEventListener("click", function (e) {
     let target = e.target;
-    target.parentElement.parentElement.remove();
+    target.parentElement.remove();
   });
 });
